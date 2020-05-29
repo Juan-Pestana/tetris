@@ -1,0 +1,47 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  
+}
+
+.grid {
+  width: 240px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, rgb(83, 83, 83), rgb(216, 213, 213));
+  border: 6px double black;
+}
+
+.grid div {
+  height: 24px;
+  width: 24px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.info {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+.mini-grid {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mini-grid div {
+  width: 20px;
+  height: 20px;
+}
+
